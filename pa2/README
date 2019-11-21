@@ -1,0 +1,21 @@
+Cameron Peeters
+Cruz ID: 1675143
+README.txt
+Programming Assignment 2:
+
+Programing Assignment 2: 
+	-This assignment uses a List ADT to indirectly sort a list by creating a sorted list in lexicon order by mimicking insertion sort.
+
+Files in this assignment:
+
+List.h - contains the header file for List.c
+
+List.c - Contains the implementation of the list ADT based off a bidirectional queue.
+
+Lex.c - contains the fileIO and creation of the sorted list in lexicon order based off insertion sort.
+
+Makefile - Makefile from the class website.
+
+ListClient.c - client list from the lass website.
+
+README.txt - contains info about the files in this assignment.
