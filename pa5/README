@@ -1,0 +1,50 @@
+Programming Assignment 5:
+
+//Author: Cameron Peeters
+//Cruz ID: carpenter
+//Professor: Patrick Tantalo
+//Class: CMPS101 - Algorithms and Abstract Data Types 
+//Project: Programming Assignment 5
+//Date: 6/4/2019
+
+Abstract: 
+	   Pa5 uses a Graph module in C that implements Depth First Search (DFS)  
+	   to find the Strongly Connected Components of G.
+
+	   A digraph 𝐺 = (𝑉, 𝐸) is said to be strongly connected iff for every pair of 
+	   vertices 𝑢, 𝑣 ∈ 𝑉, vertex u is reachable from v, and vertex v is reachable from
+	   u. Most directed graphs are not strongly connected. In general we say a subset
+	   𝑋 ⊆ 𝑉 is strongly connected iff every vertex in X is reachable from every
+	   other vertex in X. A strongly connected subset that is maximal with respect to
+	   this property is called a strongly connected component of G. In other words, 𝑋
+	   ⊆ 𝑉 is a strongly connected component of G if and only if 
+
+		(i) X is strongly connected, and 
+		(ii) the addition of one more vertex to X would create a subset that is not
+		     strongly connected.
+
+Files:
+	   List.c: 
+		- List ADT that holds the adjacency list
+
+           List.h:
+		- Header file for the List ADT for List.c
+
+           Graph.c:
+		- The Graph ADT that holds the vertices, edges, and arcs used to represent
+	          a graph 
+
+           Graph.h:
+		- The header file for the Graph ADT 
+
+           GraphTest.c:
+		- Hold the test code for the Graph ADT
+
+           FindComponents.c:
+		- Finds the strongly connected components of G.
+	   
+           Makefile:
+		- Compiles, cleans, and makes executable files
+
+           README:
+		- Contains all the descriptions of all files in pa5
