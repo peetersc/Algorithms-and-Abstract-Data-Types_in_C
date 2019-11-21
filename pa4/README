@@ -1,0 +1,38 @@
+Programming Assignment 4:
+
+//Author: Cameron Peeters
+//Cruz ID: carpenter
+//Professor: Patrick Tantalo
+//Class: CMPS101 - Algorithms and Abstract Data Types 
+//Project: Programming Assignment 4 
+//Date: 5/29/2019
+
+Abstract: 
+	Breadth First Search and Shortest Paths in Graphs
+	The purpose of this assignment is to implement a Graph ADT and associated 		algorithms in C. This project will utilize your List ADT from pa2 so spend some 	time going that project and make sure your List is working properly. Begin by 		reading the handout on Graph Theory, as well as appendices B.4, B.5 and sections 	22.1, 22.2 from the text.
+
+
+Files:
+	   List.c: 
+		- List ADT that holds the adjacency list
+
+           List.h:
+		- Header file for the List ADT for List.c
+
+           Graph.c:
+		- The Graph ADT that holds the vertices, edges, and arcs used to represent	          a graph 
+
+           Graph.h:
+		- The header file for the Graph ADT 
+
+           GraphTest.c:
+		- Hold the test code for the Graph ADT
+	   
+	   FindPath.c:
+		- Takes two files and finds the shortest path in the graph
+
+           Makefile:
+		- Compiles, cleans, and makes executable files
+
+           README:
+		- Contains all the descriptions of all files in pa4
