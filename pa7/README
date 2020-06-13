@@ -1,0 +1,25 @@
+Author: Cameron Peeters
+Cruz ID: capeeter
+Professor: Patrick Tantalo
+Class: CMPS101 - Algorithms and Abstract Data Types 
+Project: Programming Assignment 6
+Date: 5/25/2020
+
+Files:
+        Dictionary.h
+        - Provided Dictionary.h file **unaltered**
+
+        Dictionary.c
+        - Dictionary ADT implementation using BST data structure
+
+        DictionaryTest.c
+        - Test client for Dictionary ADT
+
+        Order.c
+        - Inorder, Preorder, and Postorder sort using Dictionary ADT
+	   
+        Makefile:
+		- Compiles, cleans, and makes executable files
+
+        README:
+		- Contains all the descriptions of all files in pa5
