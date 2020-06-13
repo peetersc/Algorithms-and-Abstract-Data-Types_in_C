@@ -1,0 +1,24 @@
+Author: Cameron Peeters
+Cruz ID: capeeter
+Professor: Patrick Tantalo
+Class: Algorithms and Abstract Data Types 
+Project: Programming Assignment 6
+
+Files:
+        Dictionary.h
+        - Provided Dictionary.h file **unaltered**
+
+        Dictionary.c
+        - Dictionary ADT implementation using BST data structure
+
+        DictionaryTest.c
+        - Test client for Dictionary ADT
+
+        Lex.c
+        - Lexicon sort using Dictionary ADT
+	   
+        Makefile:
+		- Compiles, cleans, and makes executable files
+
+        README:
+		- Contains all the descriptions of all files in pa6
